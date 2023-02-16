@@ -39,13 +39,4 @@ const Android12Switch = styled(Switch)(({ theme }) => ({
   },
 }));
 
-export default function AndroidThemeSwitch() {
-  return (
-    <FormGroup>
-      <FormControlLabel
-        control={<Android12Switch defaultChecked />}
-        label="Compose Emails"
-      />
-    </FormGroup>
-  );
-}
+export { Android12Switch };
